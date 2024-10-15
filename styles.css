@@ -42,6 +42,7 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 10px;
         }
+
         .botao {
             background-color: #444;
             color: white;
@@ -89,4 +90,18 @@
             background-color: #4caf50;
         }
 
+        .igual:hover {
+            background-color: #66bb6a;
+        }
+
+        
+        .botao:nth-child(18) {
+            grid-column: span 2;
+        }
+        
+        .botao:nth-child(8) {
+            grid-area: span 2;
+        }
     </style>
+
+    /*Espero que seja isso kkk Finalizado */
