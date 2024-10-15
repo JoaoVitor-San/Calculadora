@@ -60,5 +60,33 @@
         .botao:hover {
             background-color: #555;
         }
+        
+        .botao:active {
+            background-color: #666;
+            box-shadow: none;
+            transform: translateY(2px);
+        }
 
-</style>        
+        
+        .apagar {
+            background-color: #ff4d4d;
+        }
+
+        .apagar:hover {
+            background-color: #ff6666;
+        }
+
+        
+        .operador {
+            background-color: #ff9500;
+        }
+
+        .operador:hover {
+            background-color: #ffb84d;
+        }
+        
+        .igual {
+            background-color: #4caf50;
+        }
+
+    </style>
